@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+/*====================
+        Experts
+======================*/
+
+.experts_background{
+    font-family: 'Poppins', sans-serif;
+}
+
+.experts_icon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.experts_images .experts_icon .expert_button{
+    padding: 0px;
+}
+
+.experts_images .experts_icon .first_button{
+    padding: 0px;
+    padding-left: 50px;
+}
+
+.experts_images .experts_icon .last_button{
+    padding: 0px;
+    padding-right: 50px;
+}
+
+
+.experts_images{
+    
+    padding-left: 50px;
+}
+
+.experts_wrapper{  
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.experts_wrapper_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experts_description{
+    text-align: center;
+    padding-bottom: 20px;
+    display: grid;
+}
+
+.experts_images .experts_more{
+    text-align: center;
+    padding-bottom: 20px;
+    display: grid;
+}
+
+.expert_pos{
+    color: cornflowerblue;
+}
+
+.experts_more{
+    color: cornflowerblue;
+}

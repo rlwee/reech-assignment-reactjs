@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+.header_appbar {
+    background-color: white !important;
+    box-shadow: none;
+    // padding: 1px 0px;
+    padding: 20px;
+    z-index: 100% !important;
+}
+
+.links{
+    padding-right: 20px !important;
+
+}
+
+
+/*====================
+        HEADER
+======================*/
+
+.poppin{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.header_nav{
+    position: fixed;
+    top: 0;
+    z-index: 100 !important;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+@media screen and (max-width: 1000px) { 
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        /* display: contents; */
+        /* margin-bottom: inherit; */
+        /* scroll-padding-bottom: auto; */
+    }
+}
+
+@media screen and (max-width: 1000px) { 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding: 18px;
+}
+}
+
+
+.header_logo {
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+    min-height:32px !important
+}

@@ -12,6 +12,8 @@ import linkedin_icon from '../../Assets/Icons/Icon awesome-linkedin.jpg';
 import email_icon from '../../Assets/Icons/Icon ionic-ios-mail.jpg';
 
 
+import './experts.scss';
+
 class experts extends Component {
 
     state = {
@@ -50,7 +52,7 @@ class experts extends Component {
 
     showBoxes = () => (
         this.state.images.map((box,i) => (
-            <div className="experts_images" key={i}>
+            <div className="experts_images " key={i}>
                 <span>{this.state.images[i]}</span>
                     <div className="experts_description">
                         <span>{this.state.names[i]}</span>
@@ -59,7 +61,7 @@ class experts extends Component {
                 <div className="experts_more">
                     <span>{this.state.desc[i]}</span>
                 </div>
-                <div className="experts_icon">
+                <div className="experts_icon ">
                     <Button
                         href = {this.state.linkto[i]}
                         className="expert_button first_button"
@@ -85,13 +87,16 @@ class experts extends Component {
 
     render() {
         return (
-            <div className="experts_background" >
-                <div className="experts_wrapper">
-                    <h2>Team of <span className="blue_text">Experts</span></h2>
+            <div className="experts_background container" >
+                <div className="experts_wrapper col justify-content-center">
+                    <h2>Team of <span className="blue_text ">Experts</span></h2>
                         <p>Bellachiao chiao chiao</p>
-                    <div className="experts_wrapper_container">
-                        {this.showBoxes()}
-                    </div>
+                </div>
+
+                <div className='row justify-content-center'>
+                        <div className="experts_wrapper_container row justify-content-center">
+                            {this.showBoxes()}
+                        </div>
                 </div>
             </div>
         );

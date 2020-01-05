@@ -6,16 +6,15 @@ import Card from 'react-bootstrap/Card'
 
 const left_footer = () => {
     return (
-        <div className="Footer_left">
+        <div className="Footer_left col justify-content-left">
             <img
                 src={reech_logo}
                 className="footer_logo"
                 />
-            
             <div>
-                <Card bg="transparent" style={{ width: '850px', border:'none' }}>
+                <Card bg="transparent"  style={{ width: '850px', border:'none' }}>
                     <Card.Body>
-                    <Card.Text className="footer_vision">
+                    <Card.Text className="footer_vision row-md-6">
                         Reech Philippines is an online financial fund management platform that offers diversified 
                         investment opportunities to everyJuan primarily through crowdfunding.
                     </Card.Text>
@@ -23,10 +22,9 @@ const left_footer = () => {
                 </Card>
             </div>
 
-            <div className="copyright">
+            <div className="copyright row-md-6">
                 Copyright © 2019 Reech Philippines Corp. | Davao City.PH
             </div>
-
         </div>
     );
 };

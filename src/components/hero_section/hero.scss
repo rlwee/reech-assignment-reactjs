@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/*====================
+        Hero
+======================*/
+
+
+.hero{
+    color: black;
+    height: 80vh;
+}
+
+.body_wrapper{
+    padding: 0px;
+}
+
+.d-flex {
+    padding: 0px !important;
+    display: flex!important;
+}
+
+.p-2{
+    padding: 0px !important;
+}
+
+.grow{
+    font-style: oblique;
+}
+
+.icon_image{
+    height: 100%;
+    width: 100%;
+}
+
+
+.card-body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        /* width: fit-content; */
+        width: 950px;
+        padding: 1.25rem;
+        color: white;
+        position: relative;
+        bottom: 60%;
+    }
+    
+
+@media screen and (max-width: 500px) { 
+    .card-body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        width: 500%;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .bg-transparent {
+        background-color: transparent!important;
+        width: 20% !important;
+    }
+}
+
+@media screen and (min-width: 500px) { 
+    
+.slogan {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 1000px;
+    height: 160px;
+}
+}
+
+
+.slogan .wrapper {
+    height: 121px;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+}
+
+.image_container {
+    filter: brightness(50%);
+}
+// @media screen and (max-width: 1000px) { 
+// .reech_vision {
+//     display: table-caption;
+//     color: white;
+//     font-size:15px;
+    
+// }
+// }
+
+
+
+.reech_vision {
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 500px) { 
+
+.reech_vision {
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+}

@@ -2,12 +2,12 @@ import React from 'react';
 
 const right_footer = () => {
     return (
-        <div className="footer_right">
+        <div className="footer_right col justify-content-right ">
             <div className="footer_right_top"> 
 
-                <div className="footer_Discover">
+                <div className="footer_Discover row-md-6">
                     <section >
-                        <span className="footer_Discover">Discover</span>
+                        <span className="footer_Discover head">Discover</span>
                     <ul className="list">
                         <li>
                             Seed|Investment
@@ -22,9 +22,9 @@ const right_footer = () => {
                     </section>
                 </div>
 
-                <div className="footer_Discover">
+                <div className="footer_Discover row-md-6">
                     <section >
-                        <span className="footer_Discover">Company</span>
+                        <span className="footer_Discover head">Company</span>
                     <ul className="list">
                         <li>
                             About Us
@@ -39,9 +39,9 @@ const right_footer = () => {
                     </section>
                 </div>
 
-                <div className="footer_Discover">
+                <div className="footer_Discover row-md-6">
                     <section >
-                        <span className="footer_Discover">Contact</span>
+                        <span className="footer_Discover head">Contact</span>
                     <ul className="list">
                         <li>
                             inquiry@reechph.com
@@ -61,10 +61,10 @@ const right_footer = () => {
 
             </div>
 
-            <div className="footer_right_bottom">
+            <div className="footer_right_bottom row-md-6">
                     <div className="footer_Discover">
                         <section >
-                            <span className="footer_Discover">Features</span>
+                            <span className="footer_Discover head">Features</span>
                         <ul className="list">
                             <li>
                                 Digital Wallet
@@ -86,9 +86,9 @@ const right_footer = () => {
                     </div>
 
 
-                    <div className="footer_Discover">
+                    <div className="footer_Discover row-md-6">
                         <section >
-                            <span className="footer_Discover">Help & Support</span>
+                            <span className="footer_Discover head">Help & Support</span>
                         <ul className="list">
                             <li>
                                 Contact Us

@@ -13,7 +13,7 @@ import Footer from './components/footer_section/index';
 function App() {
   return (
     <div className="App"
-         style={{ height: '100px',
+          style={{ height: '100px',
                   background: 'cornflowerblue' }}
       >
 
